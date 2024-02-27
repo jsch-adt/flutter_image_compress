@@ -10,7 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_image_compress_platform_interface: ^1.0.3
+  flutter_image_compress_platform_interface:
+    git:
+      url: https://github.com/jsch-adt/flutter_image_compress.git
+      ref: commons
+      path: packages/flutter_image_compress_platform_interface
   
 flutter:
   plugin:
